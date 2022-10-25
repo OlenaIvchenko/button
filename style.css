@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Rubik;
+  }
+
+  button {
+    padding: 12px 24px;
+    margin: 132px 0px 100px 100px;
+    color: white;
+    background-color: #5300c9;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 3px transparent;
+    outline: none;
+    transition-property: background-color box-shadow;
+    transition-timing-function: ease;
+    transition-duration: 0.2s;
+  }
+
+  button:hover {
+    background-color: #8647e0;
+  }
+
+  button:focus {
+    background-color: #5300c9;
+    box-shadow: 0px 0px 0px 3px #dcc3ff;
+  }
+
+  button:active {
+    background-color: #4400a5;
+  }
+
+  button:disabled {
+    background-color: #e4e4e4;
+    color: #afacac;
+  }
+
+  
